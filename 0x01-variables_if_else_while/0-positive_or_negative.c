@@ -8,7 +8,7 @@
  *
  * Return: always Zero (0)
  */
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -20,6 +20,6 @@ int main (void)
 		printf("%d is positive\n", n);
         else
 		printf("%d is zero\n", n);
-	
+
 	return (0);
 }
