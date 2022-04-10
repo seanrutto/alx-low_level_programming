@@ -15,6 +15,7 @@ int main(void)
 	while(letter!='q'|| letter!='e')
 	{
 		putchar (letter);
+		return (0);
 	}
 	}
 	putchar ('\n');
