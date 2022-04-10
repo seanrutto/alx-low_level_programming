@@ -4,12 +4,12 @@
  *
  * Function: prints all the letters
  *
- * Return: always o
+ * Return: always 0
  */
 int main(void)
 {
 	char letter;
-	for(letter = 'a''; letter <= 'z'; letter++)
+	for(letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar("%c\n", letter);
 	}
