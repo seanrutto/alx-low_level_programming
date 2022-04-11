@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - start of function 
+ * main - start of function
  *
  * Function: prints some letters
  *
@@ -9,8 +9,8 @@
 int main(void)
 {
 	char letter;
-	letter='a';
-	for(letter='a'; letter<= 'z'; letter++ )
+	letter = 'a';
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		if (letter != 'e' && letter != 'q')
 		{
