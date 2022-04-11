@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - declares start of run
+ * Main - declares start of run
  *
- * Main: prints the alphabet in lowercase, followed by a new line
+ * Function: prints the alphabet in lowercase, followed by a new line
  *
  * Return: always 0
  */
