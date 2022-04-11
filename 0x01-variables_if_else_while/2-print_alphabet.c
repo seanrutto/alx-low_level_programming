@@ -2,7 +2,7 @@
 /*
  * main - declares start of run
  *
- * Function: Outputs all the letters of the alphabet from a to z
+ * Function: prints the alphabet in lowercase, followed by a new line
  *
  * Return: always 0
  */
