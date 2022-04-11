@@ -2,7 +2,7 @@
 /*
  * main - declares start of run
  *
- * Function: prints the alphabet in lowercase, followed by a new line
+ * Main: prints the alphabet in lowercase, followed by a new line
  *
  * Return: always 0
  */
