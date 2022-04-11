@@ -2,7 +2,7 @@
 /*
  * main - declares start of run
  *
- * Function: prints all the letters
+ * Function: prints all the letters of the alphabet
  *
  * Return: always 0
  */
