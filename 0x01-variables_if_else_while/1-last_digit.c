@@ -4,7 +4,7 @@
 /*
  * main - Entry point of program
  *
- * Function: checks last digit and prints output
+ * Description: checks last digit and prints output
  *
  * Return: always equal to zero (0) on success
  */
