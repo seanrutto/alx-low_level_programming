@@ -10,6 +10,7 @@ int _islower(int c)
 	int i;
 	int c;
 
-	i = _islower(c);
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		i = _islower(c);
 	return (0);
 }
