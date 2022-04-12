@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-	char c;
+	char c[8] = "_putchar";
 	int i;
-	c[] = {"-","p","u","t","c","h","a","r"};
 
 	for (i=0; i<=7; i++)
 		_putchar(c[i]);
