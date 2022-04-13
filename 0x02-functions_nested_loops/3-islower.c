@@ -2,7 +2,7 @@
 
 /**
  * _islower - check the code for lowercase letter
- * @c is an ineger by user
+ * @c: is an ineger by user
  *
  * Return: Always 0.
  */

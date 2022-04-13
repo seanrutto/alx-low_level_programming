@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks the code for an alphabet
- *@c is an integer by user
+ * @c: is an integer by user
  *
  * Return: Always 0.
  */
