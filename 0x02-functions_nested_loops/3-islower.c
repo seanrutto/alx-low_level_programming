@@ -7,10 +7,12 @@
  */
 int _islower(int c)
 {
-	int i;
 	int c;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		i = _islower(c);
+	if(c >= 97 && c <= 122)
+		return (1);
+
 	return (0);
+
+
 }
