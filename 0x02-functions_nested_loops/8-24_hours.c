@@ -33,7 +33,7 @@ void jack_bauer(void)
 			}
 		}
 
-		else if (a == '2')
+		if (a == '2')
 		{
 			for (b = '0'; b <= '3'; b++)
                 	{
