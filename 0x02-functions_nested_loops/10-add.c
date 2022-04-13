@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * add - add two numbers
+ * @a: first integer
+ * @b: second integer
  *
  * Return: Always 0.
  */
