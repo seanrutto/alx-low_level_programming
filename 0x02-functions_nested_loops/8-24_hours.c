@@ -20,11 +20,11 @@ void jack_bauer(void)
 			{
 				for (d = 0; d <= 9; d++)
 				{
-					return (a);
-					return (b);
+					_putchar (a);
+					_putchar (b);
 					_putchar (':');
-					return (c);
-					return (d);
+					_putchar (c);
+					_putchar (d);
 					_putchar('\n');
 				}
 			}
