@@ -14,7 +14,7 @@ void jack_bauer(void)
 
 	for (a = '0'; a <= '2'; a++)
 	{
-		while (a < 2)
+		if (a < 2)
 		{
 			for (b = '0'; b <= '9'; b++)
 			{
@@ -31,9 +31,10 @@ void jack_bauer(void)
 					}
 				}
 			}
+			break;
 		}
 
-		while (a == '2')
+		if (a == '2')
 		{
 			for (b = '0'; b <= '3'; b++)
                 	{
@@ -50,6 +51,7 @@ void jack_bauer(void)
                                 	}
                         	}
               		}
+			break;
 
 		}
 	}
