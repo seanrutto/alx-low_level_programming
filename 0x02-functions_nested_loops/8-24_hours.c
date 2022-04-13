@@ -16,22 +16,23 @@ void jack_bauer(void)
 	{
 		if (a < 2)
 		{
-		for (b = '0'; b <= '9'; b++)
-		{
-			for (c = '0'; c <= '5'; c++)
+			for (b = '0'; b <= '9'; b++)
 			{
-				for (d = '0'; d <= '9'; d++)
+				for (c = '0'; c <= '5'; c++)
 				{
-					_putchar (a);
-					_putchar (b);
-					_putchar (':');
-					_putchar (c);
-					_putchar (d);
-					_putchar('\n');
+					for (d = '0'; d <= '9'; d++)
+					{
+						_putchar (a);
+						_putchar (b);
+						_putchar (':');
+						_putchar (c);
+						_putchar (d);
+						_putchar('\n');
+					}
 				}
 			}
 		}
-		}
+
 		else if (a == '2')
 		{
 			for (b = '0'; b <= '3'; b++)
@@ -50,5 +51,6 @@ void jack_bauer(void)
                         	}
               		}
 
+		}
 	}
 }
