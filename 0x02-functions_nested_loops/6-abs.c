@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _abs - check the code and output the absolute number
+ * @a: is an integer by user
  *
  * Return: Always 0.
  */
