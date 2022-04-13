@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int _isalphia(int c)
+int _isalpha(int c)
 {
 
 
