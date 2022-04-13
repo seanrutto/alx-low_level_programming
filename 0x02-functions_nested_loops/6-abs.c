@@ -13,8 +13,8 @@ int _abs(int a)
 	}
 	else if (a < 0)
 	{
-		int b = -(a);
-		_putchar(b);
+		a = a*-1;
+		_putchar(a);
 	}
 	return (0);
 }
