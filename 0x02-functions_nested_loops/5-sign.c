@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_sign - checks whether number is positive or negative
+ * @c: is an integer entered by user
  *
  * Return: Always 0.
  */
