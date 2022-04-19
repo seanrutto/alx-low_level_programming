@@ -7,7 +7,7 @@
  * Return: is always 0.
  */
 
-#void print_line(int n)
+void print_line(int n)
 {
 	int i;
 
@@ -21,6 +21,6 @@
 	}
 	else 
 	{
-		_putchar ('\n')
+		_putchar ('\n');
 	}
 }
