@@ -11,14 +11,14 @@ int main()
 	{
 		for (b = '0'; b <= '9'; b++)
 		{
-			putchar (a);
-			putchar (b);
-			putchar (' ');
 
 			for (x = '0'; x <= '9'; x++)
 			{
 				for (y = '0'; y <= '9'; y++)
 				{
+					putchar (a);
+					putchar (b);
+					putchar (' ');
 					putchar (x);
 					putchar (y);
 					putchar (',');
