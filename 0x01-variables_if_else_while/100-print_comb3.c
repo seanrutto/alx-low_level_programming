@@ -14,10 +14,13 @@ int main(void)
 	{
 		for (y='0'; y<='9'; y++)
 		{
-			putchar (x);
-			putchar (y);
-			putchar (',');
-			putchar (' ');
+			if (y > x)
+			{
+				putchar (x);
+				putchar (y);
+				putchar (',');
+				putchar (' ');
+			}
 		}
 	}
 	putchar ('\n');
