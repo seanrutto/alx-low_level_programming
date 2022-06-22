@@ -31,10 +31,10 @@ void jack_bauer(void)
 					}
 				}
 			}
-			break;
+			
 		}
 
-		else if (a = '2')
+		else if (a == '2')
 		{
 			for (b = '0'; b <= '3'; b++)
                 	{
@@ -51,7 +51,7 @@ void jack_bauer(void)
                                 	}
                         	}
               		}
-			break;
+			
 
 		}
 	}
