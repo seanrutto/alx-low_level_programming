@@ -10,21 +10,22 @@
 
 void print_to_98(int n)
 {
+	char b= n + '0';
 	if (n <= '98' && n < '0')
 	{
-		_putchar (n);
+		_putchar (b);
 		n++;
 	}
 
 	else if (n <= '0')
 	{
-		_putchar (n*-1);
+		_putchar (b*-1);
 		n++;
 	}
 
 	else if (n > '98')
 	{
-		_putchar (n);
+		_putchar (b);
 		n--;
 	}
 }
